@@ -12,7 +12,6 @@ public:
             map[s[i]]++;
             if(map[s[i]] == 2){
                 return i;
-                break;
             }
         }
         return -1;
